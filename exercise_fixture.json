@@ -1,0 +1,71 @@
+[
+    {
+        "model": "training.level",
+        "pk": 1,
+        "fields": {
+            "level_number": 1
+        }
+    },
+    {
+        "model": "training.section",
+        "pk": 1,
+        "fields": {
+            "level": 1,
+            "section_type": "reading"
+        }
+    },
+    {
+        "model": "training.section",
+        "pk": 2,
+        "fields": {
+            "level": 1,
+            "section_type": "listening"
+        }
+    },
+    {
+        "model": "training.exercise",
+        "pk": 1,
+        "fields": {
+            "section": 1,
+            "question_text": "저는 아침에 학교에 갔어요. '아침'의 의미는 무엇인가요?",
+            "correct_answer": "D",
+            "answer_choices": ["A: 낮", "B: 저녁", "C: 새벽", "D: 아침"]
+        }
+    },
+    {
+        "model": "training.exercise",
+        "pk": 2,
+        "fields": {
+            "section": 2,
+            "question_text": "내일 친구를 만날 거예요. '만날 거예요'는 어떤 시간에 일어날 일을 나타내나요?",
+            "correct_answer": "C",
+            "answer_choices": ["A: 과거", "B: 현재", "C: 미래", "D: 매일"]
+        }
+    },
+    {
+        "model": "training.level",
+        "pk": 2,
+        "fields": {
+            "level_number": 2
+        }
+    },
+    {
+        "model": "training.section",
+        "pk": 3,
+        "fields": {
+            "level": 2,
+            "section_type": "reading"
+        }
+    },
+    {
+        "model": "training.exercise",
+        "pk": 3,
+        "fields": {
+            "section": 3,
+            "question_text": "저는 한국 음식을 좋아해요. '좋아해요'는 무슨 뜻인가요?",
+            "correct_answer": "B",
+            "answer_choices": ["A: 싫어하다", "B: 좋아하다", "C: 무시하다", "D: 잊다"]
+        }
+    }
+]
+
